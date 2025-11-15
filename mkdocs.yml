@@ -1,0 +1,5 @@
+site_name: Data Structures and Algorithms
+
+site_url:
+theme:
+  name: material
