@@ -1,5 +1,29 @@
-site_name: Data Structures and Algorithms
-
+site_name: Data Structures & Algorithms
 site_url: https://trihajikhr.github.io/data-structures-and-algorithms/
 theme:
   name: material
+
+nav:
+  - Home: index.md
+  - Array: array.md
+  - Linked List:
+      - Singly: linked-list/singly.md
+      - Doubly: linked-list/doubly.md
+  - Stack: stack.md
+  - Queue: queue.md
+  - Tree:
+      - Binary Tree: tree/binary-tree.md
+      - BST: tree/bst.md
+      - AVL Tree: tree/avl.md
+  - Graph: graph.md
+  - Sorting:
+      - Bubble: sorting/bubble.md
+      - Quick: sorting/quick.md
+      - Merge: sorting/merge.md
+  - Searching:
+      - Linear: searching/linear.md
+      - Binary: searching/binary.md
+  - Dynamic Programming: dp.md
+
+plugins:
+  - search
